@@ -1,10 +1,12 @@
+package main;
+
 public class Train {
     private int number;
     private Double arrivalTime;
     private Double departureTime;
-    private Long cost;
+    private int cost;
 
-    public Train(int number, Double arrivalTime, Double departureTime, Long cost) {
+    public Train(int number, Double arrivalTime, Double departureTime, int cost) {
         this.number = number;
         this.arrivalTime = arrivalTime;
         this.departureTime = departureTime;
@@ -23,7 +25,7 @@ public class Train {
         return departureTime;
     }
 
-    public Long getCost() {
+    public int getCost() {
         return cost;
     }
 }
